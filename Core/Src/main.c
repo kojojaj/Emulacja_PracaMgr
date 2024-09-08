@@ -173,6 +173,7 @@ int main(void)
   /* Menu and beams calibration loop */
   while (isEnterPressed == false)
   {
+	  /*Assuming that there is no strain on springs yet, actual ADC values are 'stable' values.*/
 	  beam_left_stable_ADCval = ADC_value[0];
 	  beam_right_stable_ADCval = ADC_value[1];
 
